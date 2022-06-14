@@ -52,3 +52,55 @@
 //         sub_array.push(item);
 //     }
 // document.write(sub_array);
+
+
+// question 7 
+
+// document.write(`<h1>Counting:</h1>`)
+// for(i=0; i < 16; i++){
+//     document.write(i + "," );
+// }
+
+// document.write(`<h1>Reverse Counting:</h1>`)
+// for(i=10; i > 0; i--){
+//     document.write(i + "," );
+// }
+
+// document.write(`<h1>Even Counting:</h1>`)
+// for(i=0; i < 20; i++){
+//     if(i % 2 == 0){
+//         document.write(`${i} ,`);
+//     }
+// }
+
+// document.write(`<h1>odd Counting:</h1>`)
+// for(i=0; i < 20; i++){
+//     if(i % 2 != 0){
+//         document.write(`${i} ,`);
+//     }
+// }
+
+// document.write(`<h1>series Counting:</h1>`)
+// for(i=1; i < 20; i++){
+//     if(i % 2 == 0){
+//         document.write(`${i}k ,`);
+//     }
+// }
+
+// question 7 
+
+// var inp = prompt("enter car make");
+// var inp2 = inp.toLowerCase()
+// var arr = ["honda","suzuki","toyota","changhan","audi"]
+// var check = false;
+// for(i=0; i < arr.length ; i++){
+//     if(inp2 == arr[i]){
+//         document.write(`<i><b> found at index ${i}</b></i>`)
+//         var check = true;
+//     }
+   
+// }
+// if( check == false){
+        
+//     document.write(`<i><b>not found</b></i>`)
+// }
