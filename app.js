@@ -87,7 +87,7 @@
 //     }
 // }
 
-// question 7 
+// question 8
 
 // var inp = prompt("enter car make");
 // var inp2 = inp.toLowerCase()
@@ -104,3 +104,63 @@
         
 //     document.write(`<i><b>not found</b></i>`)
 // }
+
+// question 9
+
+// var arr = [24 , 53, 78, 91, 12];
+// var larg= 0;
+
+// for (i=0; i<=larg;i++){
+//     if (arr[i]>larg) {
+//         var larg=arr[i];
+//     }
+// }
+
+// document.write("the largest number is "+ larg);
+
+// question 10
+
+// var arr = [24 , 53, 78, 91, 12];
+// var small= 91;
+
+// for (i=0; i<small;i++){
+//     if (arr[i]<small) {
+//         var small=arr[i];
+//     }
+// }
+// document.write("the smallest number is "+ small)
+
+// // question 11
+// var arr = [24 , 53, 78, 91, 12];
+// var larg= 0;
+// var small = 91;
+
+// for (i=0; i<=larg;i++){
+//     if (arr[i]>larg) {
+//         var larg=arr[i];
+//     }
+// }
+// document.write("the largest number is " + larg + "</br>")
+
+// for (i=0; i<small;i++){
+//         if (arr[i]<small) {
+//             var small=arr[i];
+//         }
+// }
+// document.write("the smallest number is " + small)
+
+// question 12
+
+ 
+//  for(let i=0; i< 100; i++) {        
+//     if( i % 5 === 0){                    
+//       document.write(i + "</br>")    
+//     }    
+
+// }
+
+// question 13
+
+// var students = ["ali","sami","taha","inam"]
+// var scores = [58,73,89,90]
+// document.write(`<table border=1 ><th>students</th><th>scores</th> <tr><td>ali</td><td>58</td></tr> <tr><td>sami</td> <td>73</td></tr> <tr><td>taha</td> <td>89</td></tr> <tr><td>inam</td><td>90</td></tr></table>`)
