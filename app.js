@@ -164,3 +164,30 @@
 // var students = ["ali","sami","taha","inam"]
 // var scores = [58,73,89,90]
 // document.write(`<table border=1 ><th>students</th><th>scores</th> <tr><td>ali</td><td>58</td></tr> <tr><td>sami</td> <td>73</td></tr> <tr><td>taha</td> <td>89</td></tr> <tr><td>inam</td><td>90</td></tr></table>`)
+
+// question 14
+
+// var scores = [12,45,3,22,34,50];
+// var inp = prompt("enter a number where you stop array [12,45,3,22,34,50]")
+// var num = Number(inp);
+// for(i=0;i<scores.length;i++){
+//     if(num == scores[i]){
+//         var newscore = scores.slice(0,i+1)
+//         document.write(newscore)
+//     }
+// }
+
+// question 15
+
+// var a = [[1,2,3],[4,5,6],[7,8,9]];
+// for(i=0;i<a.length;i++){
+//     document.write(a[i] + "</br>" )
+// }
+
+// question 16
+
+// var inp = prompt("enter a num");
+// var num = Number(inp);
+// for(i=0;i>0;i++){
+//    document.write( num - 0.5);
+// }
